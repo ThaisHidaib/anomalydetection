@@ -53,25 +53,3 @@ To run the demo, complete the following steps:
 1. Open one of the notebooks, for example, Anomaly Finder API Example Private Preview (Batch Method).ipynb
 1. Fill in the API key and the endpoint from your Anomaly Detector resource on Azure
 1. In the Notebook main menu, click Cell->run all
-
-
-## Container demo
-
-To run the notebook with your Anomaly Detector container instance, complete the following steps:
-
-1. Clone this project to your local directory
-1. Start **Anaconda Prompt**
-1. In the command line, change the working directory to your project directory using **cd**
-1. Type **jupyter notebook** and run which opens http://localhost:8888/tree in a browser window
-1. Open one of the notebooks under **ipython-notebook** folder
-1. Fill in the API key (from your Anomaly Detector resource on Azure) and the endpoint (from your Anomaly Detector container instance)
-1. In the Notebook main menu, click Cell->run all
-
-## Data requirements
-
-Example data is provided in this repository, along with example JSON responses from the API. To use the Anomaly Detector API on your time series data, ensure the following:
-
-* Your data points are separated by the same interval, with no missing points.
-* Your data has at least 13 data points if it doesn't have clear perodicity.
-* Your data has at least 4 periods if it does have clear perodicity.
-Please read [Best practices for using the Anomaly Detector API](https://aka.ms/adbest) for details.
