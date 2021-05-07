@@ -1,4 +1,4 @@
-This repository contains a sample for Anomaly Detector API. The Anomaly Detector API enables you to monitor and find abnormalities in your time series data by automatically identifying and applying the correct statistical models, regardless of industry, scenario, or data volume.
+This repository contains a sample for Anomaly Detector API which data comes from a CSV. The Anomaly Detector API enables you to monitor and find abnormalities in your time series data by automatically identifying and applying the correct statistical models, regardless of industry, scenario, or data volume.
 
 ---
 
